@@ -1,15 +1,12 @@
-NAME: Xuan Peng
-EMAIL:
-ID:
+NAME:  Xuan Peng
+EMAIL: syeaziran@g.ucla.edu
+ID:    705185066
 
-Serial number of my Beaglebone: BBGW19010206
+Description of each of the included files:
+lab4c_tcp.c:program establishes TCP session, and presents ID; reports temperatures; processes command correctly and does command and data logging
+lab4c_tls.c: establishes TLS session; presents ID; reports temperatures and processes command correctly
+Makefile: default: compile the program
+					clean: rm all files created by the program.
+	  			dist: build submission tarball.
 
-WiFi MAC address:2c:f7:f1:06:a0:cd
-
-Description:
-my_beaglebone.jpg: selfie shows I and my Beaglebone. 
-connected.png: screen shot shows I changed the name of my Beaglebone and configured network access.
-copy.png:screen shot shows I copied a hello world program from my laptop desktop to my beaglebone. 
-build_run.png: screen shot shows I built and ran the hello world program from a WIFI SSH session. 
-git.png: screen shot shows I already installed git and used it to clone a github repository.
-Makefile: used to build the submission tarball. 
+README: file containing descriptions of each of the files in the tarbal

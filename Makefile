@@ -1,8 +1,18 @@
 #NAME: Xuan Peng
-#EMAIL:syeaziran@g.ucla.edu
 #ID:705185066
+#EMAIL:syeaziran@g.ucla.edu
 
-SUBFILES = Makefile README my_beaglebone.jpg *.png
+.SILENT:
+
+.PHONY: default clean dist
+SUBFILES = lab4c_tcp.c lab4c_tls.c Makefile README
+
+default:
+	gcc -Wall -Wextra -g -lm -lmraa lab4c_tcp.c -o lab4c_tcp
+	gcc -Wall -Wextra -g -lm -lmraa -lssl -lcrypto lab4c_tls.c -o lab4c_tls
+
+clean:
+	rm -rf lab4c_tcp lab4c_tls lab4c-705185066.tar.gz *txt
 
 dist:
-	tar -czvf lab4a-705185066.tar.gz $(SUBFILES)  
+	tar -czvf lab4c-705185066.tar.gz $(SUBFILES)
