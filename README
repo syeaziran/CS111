@@ -1,0 +1,15 @@
+NAME: Xuan Peng
+EMAIL:syeaziran@g.ucla.edu
+ID:705185066
+
+Serial number of my Beaglebone: BBGW19010206
+
+WiFi MAC address:2c:f7:f1:06:a0:cd
+
+Description:
+my_beaglebone.jpg: selfie shows I and my Beaglebone. 
+connected.png: screen shot shows I changed the name of my Beaglebone and configured network access.
+copy.png:screen shot shows I copied a hello world program from my laptop desktop to my beaglebone. 
+build_run.png: screen shot shows I built and ran the hello world program from a WIFI SSH session. 
+git.png: screen shot shows I already installed git and used it to clone a github repository.
+Makefile: used to build the submission tarball. 
